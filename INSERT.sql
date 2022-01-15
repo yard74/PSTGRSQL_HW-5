@@ -1,0 +1,97 @@
+INSERT INTO Жанры (Название) VALUES ('Hip-Hop');
+INSERT INTO Жанры (Название) VALUES ('Alternative Hip-Hop');
+INSERT INTO Жанры (Название) VALUES ('Pop music');
+INSERT INTO Жанры (Название) VALUES ('R&B');
+INSERT INTO Жанры (Название) VALUES ('Russian Rock');
+
+INSERT INTO Исполнители (Псевдоним) VALUES ('Eminem');
+INSERT INTO Исполнители (Псевдоним) VALUES ('50 Cent');
+INSERT INTO Исполнители (Псевдоним) VALUES ('Noize MC');
+INSERT INTO Исполнители (Псевдоним) VALUES ('Michael Jackson');
+INSERT INTO Исполнители (Псевдоним) VALUES ('Ava Max');
+INSERT INTO Исполнители (Псевдоним) VALUES ('Justin Timberlake');
+INSERT INTO Исполнители (Псевдоним) VALUES ('Lumen');
+INSERT INTO Исполнители (Псевдоним) VALUES ('Кино');
+
+INSERT INTO ЖанрыИсполнителей (КодИсполнителя, КодЖанра) VALUES (1, 1);
+INSERT INTO ЖанрыИсполнителей (КодИсполнителя, КодЖанра) VALUES (2, 1);
+INSERT INTO ЖанрыИсполнителей (КодИсполнителя, КодЖанра) VALUES (3, 1);
+INSERT INTO ЖанрыИсполнителей (КодИсполнителя, КодЖанра) VALUES (3, 2);
+INSERT INTO ЖанрыИсполнителей (КодИсполнителя, КодЖанра) VALUES (4, 3);
+INSERT INTO ЖанрыИсполнителей (КодИсполнителя, КодЖанра) VALUES (5, 3);
+INSERT INTO ЖанрыИсполнителей (КодИсполнителя, КодЖанра) VALUES (6, 4);
+INSERT INTO ЖанрыИсполнителей (КодИсполнителя, КодЖанра) VALUES (7, 5);
+INSERT INTO ЖанрыИсполнителей (КодИсполнителя, КодЖанра) VALUES (8, 5);
+
+INSERT INTO Альбомы (Название, ГодВыпуска) VALUES ('The Eminem Show', 2002);
+INSERT INTO Альбомы (Название, ГодВыпуска) VALUES ('The Marshall Mathers LP', 2000);
+INSERT INTO Альбомы (Название, ГодВыпуска) VALUES ('The Singles', 2003);
+INSERT INTO Альбомы (Название, ГодВыпуска) VALUES ('The Massacre', 2005);
+INSERT INTO Альбомы (Название, ГодВыпуска) VALUES ('Curtis', 2007);
+INSERT INTO Альбомы (Название, ГодВыпуска) VALUES ('Get Rich or Die Tryin', 2003);
+INSERT INTO Альбомы (Название, ГодВыпуска) VALUES ('Выход в город', 2021);
+INSERT INTO Альбомы (Название, ГодВыпуска) VALUES ('The Greatest Hits Vol. 1', 2008);
+INSERT INTO Альбомы (Название, ГодВыпуска) VALUES ('Последний альбом', 2010);
+INSERT INTO Альбомы (Название, ГодВыпуска) VALUES ('Thriller', 1982);
+INSERT INTO Альбомы (Название, ГодВыпуска) VALUES ('Heaven & Hell', 2020);
+INSERT INTO Альбомы (Название, ГодВыпуска) VALUES ('Man of the Woods', 2018);
+INSERT INTO Альбомы (Название, ГодВыпуска) VALUES ('Правда?', 2007);
+INSERT INTO Альбомы (Название, ГодВыпуска) VALUES ('Без консервантов', 2003);
+INSERT INTO Альбомы (Название, ГодВыпуска) VALUES ('Кино', 1991);
+
+INSERT INTO ИсполнителиАльбомов (КодИсполнителя, КодАльбома) VALUES (1, 1);
+INSERT INTO ИсполнителиАльбомов (КодИсполнителя, КодАльбома) VALUES (1, 2);
+INSERT INTO ИсполнителиАльбомов (КодИсполнителя, КодАльбома) VALUES (1, 3);
+INSERT INTO ИсполнителиАльбомов (КодИсполнителя, КодАльбома) VALUES (2, 4);
+INSERT INTO ИсполнителиАльбомов (КодИсполнителя, КодАльбома) VALUES (2, 5);
+INSERT INTO ИсполнителиАльбомов (КодИсполнителя, КодАльбома) VALUES (2, 6);
+INSERT INTO ИсполнителиАльбомов (КодИсполнителя, КодАльбома) VALUES (3, 7);
+INSERT INTO ИсполнителиАльбомов (КодИсполнителя, КодАльбома) VALUES (3, 8);
+INSERT INTO ИсполнителиАльбомов (КодИсполнителя, КодАльбома) VALUES (3, 9);
+INSERT INTO ИсполнителиАльбомов (КодИсполнителя, КодАльбома) VALUES (4, 10);
+INSERT INTO ИсполнителиАльбомов (КодИсполнителя, КодАльбома) VALUES (5, 11);
+INSERT INTO ИсполнителиАльбомов (КодИсполнителя, КодАльбома) VALUES (6, 12);
+INSERT INTO ИсполнителиАльбомов (КодИсполнителя, КодАльбома) VALUES (7, 13);
+INSERT INTO ИсполнителиАльбомов (КодИсполнителя, КодАльбома) VALUES (7, 14);
+INSERT INTO ИсполнителиАльбомов (КодИсполнителя, КодАльбома) VALUES (8, 15);
+
+INSERT INTO Сборники (Название, ГодВыпуска) VALUES ('Curtain Call: The Hits', 2005);
+INSERT INTO Сборники (Название, ГодВыпуска) VALUES ('8 Mile: Music from and Inspired by the Motion Picture', 2002);
+INSERT INTO Сборники (Название, ГодВыпуска) VALUES ('ShadyXV', 2014);
+INSERT INTO Сборники (Название, ГодВыпуска) VALUES ('MP3 Collection Vol.1', 2013);
+INSERT INTO Сборники (Название, ГодВыпуска) VALUES ('MP3 Collection Vol.2', 2014);
+INSERT INTO Сборники (Название, ГодВыпуска) VALUES ('Scream', 2017);
+INSERT INTO Сборники (Название, ГодВыпуска) VALUES ('XX Лет. Избранное', 2018);
+INSERT INTO Сборники (Название, ГодВыпуска) VALUES ('The Best', 2007);
+
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('Without Me', 290, 1);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('Sing for the Moment', '339', 1);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('Superman', 350, 1);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('The Way I Am', 290, 2);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('The Real Slim Shady', 284, 2);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('Lose Yourself', 320, 3);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('Candy Shop', 209, 4);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('Amusement Park', 189, 5);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('P.I.M.P.', 249, 6);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('Вояджер-1', 219, 7);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('Столетняя война', 193, 7);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('Моё Море', 154, 8);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('На Марсе классно', 254, 9);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('Thriller', 358, 10);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('My Head & My Heart', 174, 11);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('Say Something', 279, 12);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('Supplies', 225, 12);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('Гореть', 319, 13);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('Sid & Nancy', 188, 14);
+INSERT INTO Треки (Название, Длительность, КодАльбома) VALUES ('Кукушка', 400, 15);
+
+INSERT INTO ТрекиСборников (КодТрека, КодСборника) VALUES (1, 1);
+INSERT INTO ТрекиСборников (КодТрека, КодСборника) VALUES (2, 1);
+INSERT INTO ТрекиСборников (КодТрека, КодСборника) VALUES (6, 2);
+INSERT INTO ТрекиСборников (КодТрека, КодСборника) VALUES (9, 3);
+INSERT INTO ТрекиСборников (КодТрека, КодСборника) VALUES (12, 4);
+INSERT INTO ТрекиСборников (КодТрека, КодСборника) VALUES (13, 5);
+INSERT INTO ТрекиСборников (КодТрека, КодСборника) VALUES (14, 6);
+INSERT INTO ТрекиСборников (КодТрека, КодСборника) VALUES (18, 7);
+INSERT INTO ТрекиСборников (КодТрека, КодСборника) VALUES (19, 8);
+
